@@ -1,0 +1,9 @@
+#!/bin/sh
+
+xrdb -merge ~/.Xresources
+~/.fehbg
+setxkbmap -model pc104 -layout us,es -option grp:shift_caps_toggle
+#exec sowm
+#exec twm
+dwmstatus &
+exec dwm
