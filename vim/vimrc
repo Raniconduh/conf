@@ -12,6 +12,8 @@ if $TERM == "xterm-256color"
 endif
 
 colorscheme molokai
+let g:cpp_operator_highlight = 1
+let g:python_highlight_all = 1
 
 nnoremap <Space> <C-f> <C-g>
 
