@@ -17,7 +17,7 @@ XTerm*color13:    #bfa4c8
 XTerm*color14:    #a3d4cd
 XTerm*color15:    #cdc2b2
 
-XTerm*faceName: "Fira Code:size=10:style=Regular:antialias=true:autohint=true,Noto Color Emoji:size=10:style=Regular"
+XTerm*faceName: "Fira Code:size=12:style=Regular:antialias=true:autohint=true,Noto Color Emoji:size=12:style=Regular"
 
 XTerm*translations: #override \n\
 	Shift Ctrl <Key> C: copy-selection(CLIPBOARD) \n\

@@ -5,5 +5,8 @@ xrdb -merge ~/.Xresources
 setxkbmap -model pc104 -layout us,es -option grp:shift_caps_toggle
 #exec sowm
 #exec twm
+tcc -run ~/scripts/nightlight.c &
+#syndaemon -i 0.1 -R -K &
+#touchegg &
 dwmstatus &
 exec dwm
